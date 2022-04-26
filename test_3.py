@@ -1,7 +1,7 @@
 numb = int(input("Введите число n (от 3 до 10): "))
 if numb < 3 or numb > 10:
     while numb < 3 or numb > 10:
-        numb = int(input("Вы ввели число, не в допустимом диапазоне! Введите число n еще раз: "))
+        numb = int(input("Вы ввели число, в недопустимом диапазоне! Введите число n еще раз: "))
 
 matrix = [[0] * numb for i_cell in range(numb)]
 
